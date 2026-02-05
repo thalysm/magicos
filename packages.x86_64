@@ -111,6 +111,8 @@ noto-fonts
 noto-fonts-emoji
 ttf-dejavu
 ttf-liberation
+otf-geist
+otf-geist-mono
 
 # =========================
 # INSTALADOR
