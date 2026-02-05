@@ -1,0 +1,12 @@
+[Unit]
+Description=Restore MagicOS Calamares Customizations
+After=local-fs.target
+Before=calamares.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/cp -rf /etc/calamares-custom/* /etc/calamares/
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
