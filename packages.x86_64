@@ -115,9 +115,8 @@ ttf-liberation
 # =========================
 # INSTALADOR
 # =========================
-garuda-keyring
-chaotic-keyring
-chaotic-mirrorlist
+endeavouros-keyring
+endeavouros-mirrorlist
 calamares
 arch-install-scripts
 
