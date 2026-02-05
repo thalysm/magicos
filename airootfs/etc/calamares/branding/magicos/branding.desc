@@ -1,0 +1,9 @@
+---
+componentName: magicos
+welcomeStyleCalamares: true
+strings:
+  productName: "MagicOS"
+  shortProductName: "MagicOS"
+  version: "0.1"
+  shortVersion: "0.1"
+  welcomeMessage: "Welcome to MagicOS — Arch, refined."
