@@ -1,0 +1,30 @@
+# Archiso build output
+out/
+work/
+
+# Generated images
+*.iso
+*.img
+*.tar
+*.xz
+*.zst
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Package build/cache
+pkg/
+src/
+.cache/
+
+# IDEs / Editors
+.vscode/
+.idea/
+*.code-workspace
+
+# OS junk
+.DS_Store
+Thumbs.db

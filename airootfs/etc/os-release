@@ -1,0 +1,6 @@
+NAME="MagicOS"
+PRETTY_NAME="MagicOS (Arch-based)"
+ID=magicos
+ID_LIKE=arch
+ANSI_COLOR="1;35"
+HOME_URL="https://magicos.dev"
