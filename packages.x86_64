@@ -2,9 +2,9 @@
 # BASE DO SISTEMA
 # =========================
 base
+base-devel
 linux
 linux-firmware
-linux-headers
 mkinitcpio
 mkinitcpio-archiso
 archiso
@@ -26,8 +26,6 @@ iputils
 inetutils
 nano
 vim
-man-db
-man-pages
 less
 which
 htop
@@ -44,8 +42,6 @@ vulkan-intel
 vulkan-radeon
 libva-mesa-driver
 intel-media-driver
-xf86-video-amdgpu
-xf86-video-intel
 mesa-utils
 
 # =========================
@@ -88,6 +84,8 @@ kate
 kcalc
 okular
 gwenview
+zen-browser-bin
+yay
 
 # =========================
 # DISPLAY / TERMINAL
@@ -102,7 +100,6 @@ xdg-utils
 # =========================
 wget
 curl
-aria2
 openssh
 avahi
 nss-mdns
@@ -121,14 +118,6 @@ parted
 gptfdisk
 
 # =========================
-# DRIVERS DE VÍDEO (COMPATIBILIDADE)
-# =========================
-xf86-video-nouveau
-xf86-video-fbdev
-xf86-video-vesa
-
-
-# =========================
 # INTEGRAÇÃO KDE E DESKTOP
 # =========================
 xdg-desktop-portal-kde
@@ -143,8 +132,6 @@ unrar
 # =========================
 noto-fonts
 noto-fonts-emoji
-ttf-dejavu
-ttf-liberation
 
 # =========================
 # INSTALADOR

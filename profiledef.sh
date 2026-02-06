@@ -30,6 +30,5 @@ file_permissions=(
   ["/usr/local/bin/magicos-nvidia.sh"]="0:0:755"
   ["/usr/local/bin/magicos-options.sh"]="0:0:755"
   ["/usr/local/bin/magicos-postinstall.sh"]="0:0:755"
-  ["/usr/local/bin/magicos-zen.sh"]="0:0:755"
 )
 
