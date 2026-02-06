@@ -5,7 +5,8 @@ Before=calamares.service
 
 [Service]
 Type=oneshot
-ExecStart=/usr/bin/bash -c "mkdir -p /etc/calamares && cp -rf /etc/calamares-custom/* /etc/calamares/"
+# Esse comando garante que o NetworkManager suba no Live, resolvendo conflitos do archiso padrão
+ExecStart=/usr/bin/bash -c "mkdir -p /etc/calamares && cp -rf /etc/calamares-custom/* /etc/calamares/ && systemctl start NetworkManager"
 RemainAfterExit=yes
 
 [Install]
