@@ -7,6 +7,7 @@ linux-firmware
 linux-headers
 mkinitcpio
 mkinitcpio-archiso
+archiso
 grub
 efibootmgr
 os-prober
