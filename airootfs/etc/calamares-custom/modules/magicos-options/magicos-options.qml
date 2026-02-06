@@ -42,13 +42,6 @@ Item {
             opacity: 0.7
         }
 
-        CheckBox {
-            id: zen
-            text: "Zen Browser"
-            checked: true
-            onCheckedChanged: Calamares.setGlobalStorage("magicos_install_zen", checked)
-        }
-
         Label {
     text: {
         switch (Calamares.globalStorage["magicos_gpu"]) {

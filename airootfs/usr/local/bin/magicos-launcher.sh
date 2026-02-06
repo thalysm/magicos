@@ -12,4 +12,4 @@ fi
 /usr/local/bin/magicos-detect-kbd.sh
 
 # Run Calamares with the custom configuration
-sudo calamares -c /etc/calamares-custom/settings.conf
+sudo calamares -d /etc/calamares-custom/settings.conf

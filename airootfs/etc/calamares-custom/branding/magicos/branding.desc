@@ -1,9 +1,33 @@
 ---
-componentName: magicos
-welcomeStyleCalamares: true
+componentName:   magicos
+welcomeStyleCalamares:   true
+welcomeExpanding: normal
+windowExpanding: normal
+windowPlacement: center
+sidebar: widget
+navigation: widget
+
 strings:
-  productName: "MagicOS"
-  shortProductName: "MagicOS"
-  version: "0.1"
-  shortVersion: "0.1"
-  welcomeMessage: "Welcome to MagicOS — Arch, refined."
+    productName:         "MagicOS"
+    shortProductName:    "MagicOS"
+    version:             "0.1"
+    shortVersion:        "0.1"
+    welcomeMessage:      "Welcome to MagicOS"
+    installButtonText:   "Install"
+    runButtonText:       "Run"
+    stopButtonText:      "Stop"
+
+images:
+    # Use standard system icons to avoid the "pixmap.isNull()" crash
+    productLogo:         "/usr/share/icons/hicolor/64x64/apps/calamares.png"
+    productIcon:         "/usr/share/icons/hicolor/64x64/apps/calamares.png"
+    productWelcome:      "/usr/share/icons/hicolor/64x64/apps/calamares.png"
+
+slideshow:               "show.qml"
+slideshowAPI:            2
+
+style:
+   sidebarBackground:    "#1a1b26"
+   sidebarText:          "#f8f8f2"
+   sidebarTextSelect:    "#9634D2"
+   sidebarTextSelectHighlight: "#399CF1"
