@@ -1,0 +1,18 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "",
+                "Name": "Zayronxio & MagicOS Team"
+            }
+        ],
+        "Description": "Glassy theme for MagicOS, based on Marble UI",
+        "Id": "MagicOS-Theme",
+        "License": "LGPLv3",
+        "Name": "MagicOS Theme",
+        "ServiceTypes": [
+            "Plasma/Theme"
+        ],
+        "Version": "1.0"
+    }
+}

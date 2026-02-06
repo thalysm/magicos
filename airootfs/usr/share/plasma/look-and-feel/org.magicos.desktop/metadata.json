@@ -1,0 +1,18 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "",
+                "Name": "MagicOS Team"
+            }
+        ],
+        "Description": "Official MagicOS Glassy Global Theme",
+        "Id": "org.magicos.desktop",
+        "License": "LGPLv3",
+        "Name": "MagicOS",
+        "ServiceTypes": [
+            "Plasma/LookAndFeel"
+        ],
+        "Version": "1.0"
+    }
+}

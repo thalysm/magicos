@@ -8,6 +8,7 @@ smallestReadableFont=Geist,8,-1,5,50,0,0,0,0,0,Regular
 windowTitleFont=Geist,10,-1,5,50,0,0,0,0,0,Regular
 AccentColor=150,52,210
 ColorScheme=BreezeDark
+LookAndFeelPackage=org.magicos.desktop
 
 [KDE]
 ActiveWindowOpacity=95

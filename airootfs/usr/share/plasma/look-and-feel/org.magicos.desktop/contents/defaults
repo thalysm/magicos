@@ -1,0 +1,17 @@
+[General]
+# Plasma Desktop Theme
+theme=MagicOS-Theme
+# Color Scheme
+colorScheme=BreezeDark
+# Icon Theme
+icons=breeze-dark
+# Widget Style
+widgetStyle=kvantum
+# Window Decoration
+# decoration=...
+# Cursor Theme
+cursorTheme=breeze_cursors
+
+[kwinrc][Plugins]
+blurEnabled=true
+translucencyEnabled=true
