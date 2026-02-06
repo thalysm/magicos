@@ -1,0 +1,9 @@
+[Plugins]
+blurEnabled=true
+translucencyEnabled=true
+
+[Blur]
+BlurRadius=12
+
+[EdgeBarrier]
+EdgeBarrier=0

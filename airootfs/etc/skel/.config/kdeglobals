@@ -6,3 +6,8 @@ menuFont=Geist,10,-1,5,50,0,0,0,0,0,Regular
 toolBarFont=Geist,10,-1,5,50,0,0,0,0,0,Regular
 smallestReadableFont=Geist,8,-1,5,50,0,0,0,0,0,Regular
 windowTitleFont=Geist,10,-1,5,50,0,0,0,0,0,Regular
+
+[KDE]
+ActiveWindowOpacity=95
+InactiveWindowOpacity=85
+ShowDeleteCommand=true
