@@ -6,6 +6,14 @@ Item {
     width: 640
     height: 420
 
+    Rectangle {
+        anchors.fill: parent
+        gradient: Gradient {
+            GradientStop { position: 0.0; color: "#1a1b26" }
+            GradientStop { position: 1.0; color: "#10101a" }
+        }
+    }
+
     Column {
         spacing: 14
         anchors.centerIn: parent
@@ -13,7 +21,20 @@ Item {
 
         Label {
             text: "MagicOS Setup"
-            font.pixelSize: 26
+            font.pixelSize: 28
+            font.bold: true
+            color: "#9634D2"
+        }
+
+        Rectangle {
+            width: 100
+            height: 3
+            radius: 2
+            gradient: Gradient {
+                orientation: Gradient.Horizontal
+                GradientStop { position: 0.0; color: "#9634D2" }
+                GradientStop { position: 1.0; color: "#399CF1" }
+            }
         }
 
         Label {
