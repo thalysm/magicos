@@ -11,8 +11,8 @@ ColorScheme=BreezeDark
 LookAndFeelPackage=org.magicos.desktop
 
 [KDE]
-ActiveWindowOpacity=95
-InactiveWindowOpacity=85
+ActiveWindowOpacity=80
+InactiveWindowOpacity=70
 ShowDeleteCommand=true
 
 [Colors:Selection]

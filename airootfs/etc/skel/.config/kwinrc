@@ -3,7 +3,7 @@ blurEnabled=true
 translucencyEnabled=true
 
 [Blur]
-BlurRadius=12
+BlurRadius=10
 
 [EdgeBarrier]
 EdgeBarrier=0
