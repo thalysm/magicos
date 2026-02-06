@@ -1,29 +1,38 @@
-# MagicOS Makefile
-
 .PHONY: build clean distclean help
 
-# Default target
 help:
 	@echo "🪄 MagicOS Build System"
 	@echo ""
 	@echo "Comandos disponíveis:"
 	@echo "  make build      - Gera a ISO (requer sudo)"
-	@echo "  make clean      - Remove as pastas de trabalho (work e out)"
-	@echo "  make distclean  - Limpeza profunda para novos builds"
-	@echo ""
+	@echo "  make clean      - Remove a pasta work"
+	@echo "  make distclean  - Remove work e out"
 
-# Build the ISO
 build:
+	@echo "🧹 Garantindo ambiente limpo..."
+	-sudo umount -R work 2>/dev/null || true
+	-sudo chattr -R -i work 2>/dev/null || true
 	@echo "🚀 Iniciando build da MagicOS..."
 	sudo mkarchiso -v -C pacman.conf -L work -o out .
 
-# Clean work and out directories
 clean:
-	@echo "🧹 Limpando arquivos temporários..."
-	sudo rm -rf work/
+	@echo "🧹 Desmontando pseudo-filesystems..."
+	-sudo umount -R work/x86_64/airootfs/proc 2>/dev/null || true
+	-sudo umount -R work/x86_64/airootfs/sys 2>/dev/null || true
+	-sudo umount -R work/x86_64/airootfs/dev 2>/dev/null || true
+	-sudo umount -R work/x86_64/airootfs/run 2>/dev/null || true
+	-sudo umount -R work 2>/dev/null || true
+	-sudo chattr -R -i work 2>/dev/null || true
+	@echo "🗑️ Removendo work/..."
+	sudo rm -rf work
 
-# Complete cleanup including ISOs
 distclean:
-	@echo "🧨 Realizando limpeza profunda (work e out)..."
-	sudo rm -rf work/ out/
+	@echo "🧨 Limpeza profunda..."
+	-sudo umount -R work/x86_64/airootfs/proc 2>/dev/null || true
+	-sudo umount -R work/x86_64/airootfs/sys 2>/dev/null || true
+	-sudo umount -R work/x86_64/airootfs/dev 2>/dev/null || true
+	-sudo umount -R work/x86_64/airootfs/run 2>/dev/null || true
+	-sudo umount -R work 2>/dev/null || true
+	-sudo chattr -R -i work 2>/dev/null || true
+	sudo rm -rf work out
 	@echo "✅ Limpeza concluída."
