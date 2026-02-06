@@ -2,7 +2,7 @@
 Type=Application
 Name=Install MagicOS
 Comment=Install the system to disk
-Exec=sudo calamares -c /etc/calamares-custom/settings.conf
+Exec=/usr/local/bin/magicos-launcher.sh
 Icon=calamares
 Terminal=false
 Categories=System;

@@ -1,0 +1,5 @@
+---
+type:       "job"
+name:       "magicos-detect-gpu"
+interface:  "shellprocess"
+script:     "shellprocess.conf"

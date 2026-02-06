@@ -1,0 +1,5 @@
+---
+type:       "job"
+name:       "magicos-dev"
+interface:  "shellprocess"
+script:     "shellprocess.conf"

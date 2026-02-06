@@ -1,0 +1,5 @@
+---
+type:       "job"
+name:       "magicos-gaming"
+interface:  "shellprocess"
+script:     "shellprocess.conf"

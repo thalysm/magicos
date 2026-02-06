@@ -1,0 +1,5 @@
+---
+type:       "viewmodule"
+name:       "magicos-options"
+interface:  "qml"
+file:       "magicos-options.qml"

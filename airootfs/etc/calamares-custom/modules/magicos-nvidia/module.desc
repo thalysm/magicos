@@ -1,0 +1,5 @@
+---
+type:       "job"
+name:       "magicos-nvidia"
+interface:  "shellprocess"
+script:     "shellprocess.conf"
