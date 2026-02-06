@@ -8,6 +8,7 @@ linux-headers
 mkinitcpio
 mkinitcpio-archiso
 archiso
+pv
 grub
 efibootmgr
 os-prober
@@ -123,10 +124,9 @@ gptfdisk
 # DRIVERS DE VÍDEO (COMPATIBILIDADE)
 # =========================
 xf86-video-nouveau
-xf86-video-vmware
-xf86-video-qxl
 xf86-video-fbdev
 xf86-video-vesa
+
 
 # =========================
 # INTEGRAÇÃO KDE E DESKTOP
