@@ -109,6 +109,42 @@ avahi
 nss-mdns
 
 # =========================
+# DISCO E PARTICIONAMENTO (ESSENCIAIS PARA CALAMARES)
+# =========================
+dosfstools
+mtools
+e2fsprogs
+jfsutils
+reiserfsprogs
+xfsprogs
+nilfs-utils
+btrfs-progs
+f2fs-tools
+ntfs-3g
+parted
+gptfdisk
+util-linux
+
+# =========================
+# DRIVERS DE VÍDEO (COMPATIBILIDADE)
+# =========================
+xf86-video-nouveau
+xf86-video-vmware
+xf86-video-qxl
+xf86-video-fbdev
+xf86-video-vesa
+
+# =========================
+# INTEGRAÇÃO KDE E DESKTOP
+# =========================
+xdg-desktop-portal-kde
+xdg-user-dirs
+konsole
+spectacle
+p7zip
+unrar
+
+# =========================
 # FONTES (BASE)
 # =========================
 noto-fonts
