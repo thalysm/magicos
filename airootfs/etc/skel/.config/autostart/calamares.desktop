@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Install MagicOS
+Comment=Install the system to disk
+Exec=sudo calamares
+Icon=calamares
+Terminal=false
+Categories=System;

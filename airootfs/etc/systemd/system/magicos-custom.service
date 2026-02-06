@@ -5,7 +5,7 @@ Before=calamares.service
 
 [Service]
 Type=oneshot
-ExecStart=/usr/bin/cp -rf /etc/calamares-custom/* /etc/calamares/
+ExecStart=/usr/bin/bash -c "mkdir -p /etc/calamares && cp -rf /etc/calamares-custom/* /etc/calamares/"
 RemainAfterExit=yes
 
 [Install]

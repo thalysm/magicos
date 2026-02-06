@@ -72,6 +72,8 @@ kde-gtk-config
 kscreen
 kwin
 systemsettings
+sddm
+network-manager-applet
 
 # =========================
 # APPS ESSENCIAIS
