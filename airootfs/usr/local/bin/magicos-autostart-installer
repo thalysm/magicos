@@ -1,0 +1,14 @@
+#!/bin/bash
+# MagicOS - Auto-start Calamares Installer
+# This script checks if the system was booted with script=calamares parameter
+
+# Check if we should auto-start calamares
+if grep -q "script=calamares" /proc/cmdline; then
+    echo "🪄 MagicOS: Starting installer automatically..."
+    
+    # Wait for system to be fully ready
+    sleep 3
+    
+    # Start Calamares installer
+    sudo -E calamares -d
+fi

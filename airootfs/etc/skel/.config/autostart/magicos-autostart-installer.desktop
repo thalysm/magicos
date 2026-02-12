@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=MagicOS Auto Installer
+Comment=Automatically start Calamares installer if requested
+Exec=/usr/local/bin/magicos-autostart-installer
+Icon=system-software-install
+Terminal=false
+Categories=System;
+X-KDE-autostart-after=panel
+X-KDE-StartupNotify=false
