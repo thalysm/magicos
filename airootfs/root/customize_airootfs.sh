@@ -22,7 +22,6 @@ systemctl enable sddm
 systemctl enable bluetooth
 
 # Set executable permissions for MagicOS scripts
-chmod +x /usr/local/bin/magicos-setup-glassmorphism
 chmod +x /usr/local/bin/magicos-autostart-installer
 
 # Create live user configuration
