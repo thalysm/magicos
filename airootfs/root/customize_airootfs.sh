@@ -44,4 +44,18 @@ EOF
 # Set default shell to bash for liveuser
 chsh -s /bin/bash liveuser
 
+# Configure fastfetch to use MagicOS ASCII logo
+mkdir -p /etc/skel/.config/fastfetch
+cp /etc/skel/.config/fastfetch/config-ascii.jsonc /etc/skel/.config/fastfetch/config.jsonc
+
+# Add fastfetch alias to bashrc
+cat >> /etc/skel/.bashrc << 'EOF'
+
+# MagicOS - Show system info on terminal start
+if command -v fastfetch &> /dev/null; then
+    alias neofetch='fastfetch'
+    alias fetch='fastfetch'
+fi
+EOF
+
 echo "✅ MagicOS airootfs customization completed!"
