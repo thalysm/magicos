@@ -15,6 +15,7 @@ ln -sf /usr/share/zoneinfo/UTC /etc/localtime
 systemctl enable NetworkManager
 
 # Enable SDDM (display manager)
+rm -f /etc/systemd/system/display-manager.service
 systemctl enable sddm
 
 # Enable Bluetooth
