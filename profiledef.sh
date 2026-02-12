@@ -8,9 +8,8 @@ iso_application="MagicOS - Arch-based"
 iso_version="$(date +%Y.%m.%d)"
 install_dir="arch"
 buildmodes=('iso')
-bootmodes=('bios.grub.eltorito'
-           'uefi-x64.grub.esp'
-           'uefi-x64.grub.eltorito')
+bootmodes=('bios.syslinux'
+           'uefi.grub')
 pacman_conf="pacman.conf"
 airootfs_image_type="squashfs"
 
